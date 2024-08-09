@@ -1,0 +1,29 @@
+.gradient {
+        background: #4e42ff;
+        background: linear-gradient(90deg, #4e42ff 0%, #2ec7e6 100%);
+}
+
+body {
+        background: #171717
+}
+
+.transparent_text {
+        background-clip: text;
+        color: transparent;
+}
+
+@media (prefers-color-scheme: light) {
+        .gradient {
+                background: #8d85ff;
+                background: linear-gradient(90deg, #8d85ff 0%, #4ccaf8 100%);
+        }
+
+        body {
+                background: #ffffff
+        }
+
+        .transparent_text {
+                background-clip: text;
+                color: transparent;
+        }
+}
